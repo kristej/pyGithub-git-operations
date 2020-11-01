@@ -13,7 +13,7 @@
 -o OUTPUTNAME  Output repository name
 
 ## Setup
-You can download GitClone.py and run it on cmd.  
+Instructions to run GitClone.py on cmd 
 #### For argument help
 ```
 C:\path\to\script> python GitClone.py --help
@@ -21,4 +21,14 @@ C:\path\to\script> python GitClone.py --help
 #### Sample parameters
 ```
 C:\path\to\script>python GitClone.py -u somename -p somepassword -i https://github.com/username/repository -o newreponame
+```
+Instructions to run GitClone.exe as an executable
+* Install GitClone.exe and run cmd in the same directory.
+#### For argument help
+```
+C:\path\to\exe> .\GitClone.exe --help
+```
+#### Sample parameters
+```
+C:\path\to\script>.\GitClone.exe -u somename -p somepassword -i https://github.com/username/repository -o newreponame
 ```
