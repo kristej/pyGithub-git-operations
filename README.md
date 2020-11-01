@@ -11,3 +11,10 @@
 -p PASSWORD    Password  
 -i INPUTURL    Input repository(public) url like https://github.com/username/repository  
 -o OUTPUTNAME  Output repository name
+
+## Setup
+You can download GitClone.py and run it on cmd.  
+### For argument help
+```
+C\path\to\script> python GitClone.py --help
+```
