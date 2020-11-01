@@ -1,4 +1,4 @@
-# A python library/script to atomate cloning a repository. 
+# A python library/script to automate cloning a repository. 
 1. It will download/clone the public Github repository locally. 
 2. It will remove the files LICENCE.txt and README.md and all the git history(and branches) 
 3. It will create a new Github repository initialized with the input github repository
