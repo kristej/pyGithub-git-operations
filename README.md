@@ -14,7 +14,11 @@
 
 ## Setup
 You can download GitClone.py and run it on cmd.  
-### For argument help
+#### For argument help
 ```
-C\path\to\script> python GitClone.py --help
+C:\path\to\script> python GitClone.py --help
+```
+#### Sample parameters
+```
+C:\path\to\script>python GitClone.py -u somename -p somepassword -i https://github.com/username/repository -o newreponame
 ```
