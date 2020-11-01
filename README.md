@@ -7,8 +7,7 @@
 * optional arguments:  
 -h, --help     show this help message and exit
 * required argument:  
--u USERNAME    Username
-  -p PASSWORD    Password
-  -i INPUTURL    Input repository(public) url like
-                 https://github.com/username/repository
-  -o OUTPUTNAME  Output repository name
+-u USERNAME    Username  
+-p PASSWORD    Password  
+-i INPUTURL    Input repository(public) url like https://github.com/username/repository  
+-o OUTPUTNAME  Output repository name
