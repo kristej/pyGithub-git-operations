@@ -2,13 +2,13 @@ import unittest
 import CloneGitRepo
 
 
-#The user passwords have been changed after testing
+#The username and passwords have been changed after testing
 
 class TestRepo(unittest.TestCase):
 
     def test_RepoDuplicate(self):
-        username = 'kristej'
-        password = 'goingtorock420'
+        username = 'insert_USername'
+        password = 'insert_password'
         input_repo_url = f"https://github.com/kristej/Uniform-Database-Management"
         output_repo_name = "wholesome"
         
@@ -43,19 +43,20 @@ class TestRepo(unittest.TestCase):
         #initialize a test repo in current directory
 
         #correct parameters
-        username = 'kristej'
-        password = 'goingtorock420'
+        username = 'insert_USername'
+        password = 'insert_password'
         output_repo_name = "testrepo"
         path = r"testrepo"
         
         #wrong parameters
-        username1 = 'kristej'
-        password1 = 'goingtorock420'
+        username1 = 'insert_USername'
+        password1 = 'insert_password'
         output_repo_name1 = "testrepo.git"
         path1 = r"testrepo"
-
+	#For right credentials
         flag = CloneGitRepo.git_operations(username,password,output_repo_name,path)
         self.assertEqual(flag,0)
+	#For bad credentials
         flag = CloneGitRepo.git_operations(username1,password1,output_repo_name1,path1)
         self.assertEqual(flag,1)
 
